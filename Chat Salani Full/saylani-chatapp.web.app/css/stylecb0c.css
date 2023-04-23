@@ -1,0 +1,96 @@
+body{
+	box-sizing: border-box !important;
+	background: linear-gradient(60deg,#e61eb6,#20007e);
+	background: -webkit-linear-gradient(60deg,#e61eb6,#20007e);
+}
+
+#particles-js {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(60deg,#e61eb6,#20007e);
+	background: -webkit-linear-gradient(60deg,#e61eb6,#20007e);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+
+
+.signinbtn{
+	background: linear-gradient(175deg,#e61eb6,#20007e);
+	color: white !important;
+}
+
+.loginform{
+    justify-content: center;
+    padding-top: 20px;
+    margin: 20px;
+    padding-bottom: 20px;
+    margin: 40px auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.maincontainer{
+	background-color: rgb(202, 50, 139);
+	border-radius: 20px;
+	
+}
+#signinWithFirebase, #RegisterWithFirebase{
+	-webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-transition: all 0.55s ease-in-out;
+    transition: all 0.55s ease-in-out;
+}
+
+
+.btn-google{
+	background-color: white !important;
+	color: black !important;
+	padding: 2px !important;
+}
+
+.btn-facebook{
+	background-color: #1778F2 !important;
+	color: white !important;
+	padding: 12px !important;
+	
+}
+.btn-github{
+	background-color: black !important;
+	color: white !important;
+	padding: 12px !important;
+}
+.fa-github{
+font-size: 22px;
+padding-right: 10px;
+padding-top: 5px;
+}
+.rounded-circle{
+	width: 33px !important;
+    height: 32px !important;
+}
+
+.navbar-toggler{
+	color: white !important;
+}
+.wellcome{
+	position: absolute;
+	margin-top: 10px;
+	left: 40%;
+	font-weight: 900;
+}
+
+@media (max-width: 576px) {
+
+	#signinWithFirebase, #RegisterWithFirebase{
+		padding: 30px !important;
+	}
+}
